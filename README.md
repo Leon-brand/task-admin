@@ -1,16 +1,55 @@
-# React + Vite
+# Task Admin App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para la gestión de tareas con autenticación de usuarios, desarrollada como prueba técnica utilizando React y Firebase.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Descripción
 
-## React Compiler
+Task Admin App permite a los usuarios registrarse, iniciar sesión y administrar sus tareas personales.  
+Cada tarea cuenta con estado, prioridad, fecha de vencimiento y filtros dinámicos para una mejor organización.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La aplicación está diseñada siguiendo buenas prácticas de arquitectura front-end y manejo de estado, con una experiencia clara y funcional.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Autenticación de usuarios (Firebase Auth)
+- Registro e inicio de sesión
+- Rutas protegidas
+- CRUD de tareas
+- Cambio de estado de tareas
+- Eliminación con confirmación
+- Filtros por estado y prioridad
+- Indicador de tareas vencidas
+- Persistencia en Firestore
+- Diseño responsive
+
+---
+
+## 🛠️ Tecnologías
+
+- React + Vite
+- React Router
+- Firebase Authentication
+- Firebase Firestore
+- JavaScript (ES6+)
+- CSS puro
+
+---
+
+## 🚀 Deploy
+
+La aplicación está desplegada en GitHub Pages:
+
+👉 https://TU_USUARIO.github.io/TU_REPO/
+
+---
+
+## ⚙️ Instalación y ejecución local
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPO.git
