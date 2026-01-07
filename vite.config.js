@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   /* base: 'https://Leon-brand.github.io/task-admin/' */
-  base: '/task-admin/'
+  base: 'task-admin/'
 })
