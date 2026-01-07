@@ -75,7 +75,46 @@ La aplicación estará disponible en:
 
 http://localhost:5173
 
+## 🔐 Variables de entorno
 
-Autor 
+Para que la aplicación funcione correctamente es necesario configurar Firebase.
+
+Crea un archivo .env en la raíz del proyecto.
+
+Agrega las siguientes variables:
+
+VITE_FIREBASE_API_KEY=TU_API_KEY
+VITE_FIREBASE_AUTH_DOMAIN=TU_AUTH_DOMAIN
+VITE_FIREBASE_PROJECT_ID=TU_PROJECT_ID
+VITE_FIREBASE_STORAGE_BUCKET=TU_STORAGE_BUCKET
+VITE_FIREBASE_MESSAGING_SENDER_ID=TU_MESSAGING_SENDER_ID
+VITE_FIREBASE_APP_ID=TU_APP_ID
+
+
+Estas variables se utilizan en la configuración de Firebase dentro del proyecto y no deben subirse al repositorio.
+
+## 📂 Estructura del proyecto
+src/
+├── auth/            # Login, Register y rutas públicas/privadas
+├── components/      # Componentes reutilizables (Navbar, etc.)
+├── context/         # Contexto de autenticación
+├── firebase/        # Configuración de Firebase
+├── hooks/           # Hooks personalizados
+├── tasks/
+│   ├── components/  # Componentes relacionados con tareas
+│   ├── pages/       # Vistas principales (Dashboard, CreateTask)
+│   └── services/    # Servicios de Firestore
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## 👤 Autor
+
 Leon Velasco
-Front-end Developer
+Front-End Developer
+
+React
+
+Firebase
+
+JavaScript
