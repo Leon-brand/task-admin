@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import { ProtectedRoute, PublicRoute } from "./auth/ProtectedRoute";
 import { Login } from "./auth/Login";
@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
 
   return (
-   <BrowserRouter>
+   <HashRouter>
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<ProtectedRoute><TaskList /></ProtectedRoute>} />
         </Routes>
       </AuthProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

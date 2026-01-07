@@ -5,11 +5,7 @@ import { useAuth } from "../hooks/useAuth";
 import Navbar from "../components/Navbar";
 
 // Protege rutas privadas
-/* export const ProtectedRoute = ({ children }) => {
-  const { user } = useAuth();
-  if (!user) return <Navigate to="/login" />;
-  return children;
-}; */
+
 export const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
 
