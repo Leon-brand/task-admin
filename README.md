@@ -43,7 +43,7 @@ La aplicación está diseñada siguiendo buenas prácticas de arquitectura front
 
 La aplicación está desplegada en GitHub Pages:
 
-👉 https://TU_USUARIO.github.io/TU_REPO/
+👉 https://leon-brand.github.io/task-admin/
 
 ---
 
@@ -51,5 +51,31 @@ La aplicación está desplegada en GitHub Pages:
 
 1. Clona el repositorio:
 
-```bash
-git clone https://github.com/TU_USUARIO/TU_REPO.git
+
+git clone https://github.com/Leon-brand/task-admin.git
+
+Accede al directorio del proyecto:
+
+cd TU_REPO
+
+
+Instala las dependencias:
+
+npm install
+
+
+Crea el archivo de variables de entorno (ver sección siguiente).
+
+Ejecuta la aplicación en modo desarrollo:
+
+npm run dev
+
+
+La aplicación estará disponible en:
+
+http://localhost:5173
+
+
+Autor 
+Leon Velasco
+Front-end Developer
